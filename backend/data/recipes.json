@@ -1,0 +1,513 @@
+[
+  {
+    "id": 1,
+    "name": "Scrambled Eggs",
+    "ingredients": ["egg", "butter", "salt", "pepper"],
+    "steps": [
+      "Crack the eggs into a bowl and whisk for 2 minutes until foamy.",
+      "Heat butter in a non-stick pan on low flame.",
+      "Pour the beaten eggs into the pan and let them sit for 10–15 seconds.",
+      "Gently push eggs from the sides toward the center to form folds.",
+      "Cook for 3–5 minutes on low flame while stirring lightly.",
+      "Turn off heat when eggs are soft and slightly moist.",
+      "Season with salt and pepper and serve warm."
+    ],
+    "time": 10,
+    "difficulty": "easy",
+    "diet": "non-vegetarian",
+    "nutrition": { 
+      "calories": 200, 
+      "protein_per_100g": 13,
+      "carbs_per_100g": 2
+    }
+  },
+
+  {
+    "id": 2,
+    "name": "Tomato Pasta",
+    "ingredients": ["pasta", "tomato", "olive oil", "garlic"],
+    "steps": [
+      "Boil pasta in salted water for 8–10 minutes until soft.",
+      "Drain and keep aside. Reserve some pasta water.",
+      "Chop tomatoes and garlic finely.",
+      "Heat olive oil in a pan and sauté garlic for 30 seconds.",
+      "Add tomatoes and cook for 5–7 minutes until soft.",
+      "Add salt, herbs, and mix well.",
+      "Add boiled pasta and toss with sauce.",
+      "Add pasta water if needed for texture.",
+      "Cook for 1–2 minutes and serve hot."
+    ],
+    "time": 25,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "nutrition": { 
+      "calories": 400, 
+      "protein_per_100g": 6,
+      "carbs_per_100g": 25
+    }
+  },
+
+  {
+    "id": 3,
+    "name": "Grilled Cheese",
+    "ingredients": ["bread", "cheese", "butter"],
+    "steps": [
+      "Spread butter on one side of both bread slices.",
+      "Place one slice butter-side down on a hot pan.",
+      "Add cheese on top of the bread.",
+      "Cover with the second bread slice (butter-side up).",
+      "Grill for 2–3 minutes on medium flame until golden.",
+      "Flip and grill the other side for 2–3 minutes.",
+      "Remove once cheese melts fully.",
+      "Cut and serve hot."
+    ],
+    "time": 10,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "nutrition": { 
+      "calories": 350, 
+      "protein_per_100g": 11,
+      "carbs_per_100g": 28
+    }
+  },
+
+  {
+    "id": 4,
+    "name": "Chicken Stir Fry",
+    "ingredients": ["chicken", "soy sauce", "vegetable", "garlic"],
+    "steps": [
+      "Cut chicken into small pieces.",
+      "Heat oil in a pan and sauté garlic.",
+      "Add chicken and cook for 5–6 minutes.",
+      "Add vegetables and stir fry on high flame.",
+      "Add soy sauce and mix well.",
+      "Cook for 2–3 minutes until everything is coated.",
+      "Serve hot with rice or noodles."
+    ],
+    "time": 20,
+    "difficulty": "medium",
+    "diet": "non-vegetarian",
+    "nutrition": { 
+      "calories": 450, 
+      "protein_per_100g": 27,
+      "carbs_per_100g": 5
+    }
+  },
+
+  {
+    "id": 5,
+    "name": "Veggie Omelette",
+    "ingredients": ["egg", "bell pepper", "onion", "salt"],
+    "steps": [
+      "Heat oil and sauté veggies for 2 minutes.",
+      "Chop bell peppers and onions.",
+      "Beat eggs in a bowl for 1–2 minutes.",
+      "Pour egg mixture over the veggies.",
+      "Cook on low flame for 3–4 minutes.",
+      "Flip gently and cook the other side.",
+      "Serve warm."
+    ],
+    "time": 15,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "nutrition": { 
+      "calories": 250, 
+      "protein_per_100g": 12,
+      "carbs_per_100g": 3
+    }
+  },
+
+  {
+    "id": 6,
+    "name": "Pancakes",
+    "ingredients": ["flour", "milk", "egg", "sugar"],
+    "steps": [
+      "Mix flour, sugar, milk, and egg to make a smooth batter.",
+      "Heat a pan on medium flame.",
+      "Pour a ladle of batter into the pan.",
+      "Cook until bubbles form on top.",
+      "Flip and cook for another 1 minute.",
+      "Serve with honey or syrup."
+    ],
+    "time": 20,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "nutrition": { 
+      "calories": 300, 
+      "protein_per_100g": 5,
+      "carbs_per_100g": 35
+    }
+  },
+
+  {
+    "id": 7,
+    "name": "Fried Rice",
+    "ingredients": ["rice", "egg", "soy sauce", "vegetable"],
+    "steps": [
+      "Cook rice and let it cool completely.",
+      "Scramble egg in a pan and keep aside.",
+      "Stir fry veggies for 2–3 minutes.",
+      "Add rice and mix well.",
+      "Add soy sauce and stir fry on high flame.",
+      "Add scrambled egg back.",
+      "Serve hot."
+    ],
+    "time": 25,
+    "difficulty": "medium",
+    "diet": "vegetarian",
+    "nutrition": { 
+      "calories": 420, 
+      "protein_per_100g": 6,
+      "carbs_per_100g": 28
+    }
+  },
+
+  {
+    "id": 8,
+    "name": "Masoor Dal",
+    "ingredients": ["masoor dal", "turmeric", "salt", "ghee"],
+    "steps": [
+      "Wash and boil masoor dal for 15–20 minutes.",
+      "Heat ghee in a pan.",
+      "Add turmeric and spices.",
+      "Pour tempering over cooked dal.",
+      "Mix well and cook for 2 minutes.",
+      "Serve hot with rice."
+    ],
+    "time": 30,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "nutrition": { 
+      "calories": 220, 
+      "protein_per_100g": 9,
+      "carbs_per_100g": 20
+    }
+  },
+
+  {
+    "id": 9,
+    "name": "Fruit Salad",
+    "ingredients": ["apple", "banana", "orange", "honey"],
+    "steps": [
+      "Wash and chop all fruits.",
+      "Add them to a bowl.",
+      "Drizzle honey on top.",
+      "Mix gently.",
+      "Serve fresh."
+    ],
+    "time": 10,
+    "difficulty": "easy",
+    "diet": "vegan",
+    "nutrition": { 
+      "calories": 150, 
+      "protein_per_100g": 1,
+      "carbs_per_100g": 15
+    }
+  },
+
+  {
+    "id": 10,
+    "name": "Aloo Paratha",
+    "ingredients": ["wheat flour", "potato", "salt", "ghee"],
+    "steps": [
+      "Boil and mash potatoes.",
+      "Add salt and spices to make stuffing.",
+      "Make dough with wheat flour.",
+      "Roll dough, fill stuffing, and seal edges.",
+      "Roll again into paratha shape.",
+      "Cook on tawa with ghee until golden.",
+      "Serve hot."
+    ],
+    "time": 35,
+    "difficulty": "medium",
+    "diet": "vegetarian",
+    "nutrition": { 
+      "calories": 300, 
+      "protein_per_100g": 7,
+      "carbs_per_100g": 32
+    }
+  },
+
+  {
+    "id": 11,
+    "name": "Chana Masala",
+    "ingredients": ["chickpeas", "onion", "tomato", "spices"],
+    "steps": [
+      "Soak chickpeas overnight, then boil them until soft.",
+      "Heat oil in a pan and sauté chopped onions until golden.",
+      "Add tomatoes and cook until they turn mushy.",
+      "Add spices and mix well.",
+      "Add boiled chickpeas and stir for 2–3 minutes.",
+      "Add water and simmer for 10 minutes.",
+      "Serve hot with rice or roti."
+    ],
+    "time": 40,
+    "difficulty": "medium",
+    "diet": "vegan",
+    "nutrition": { 
+      "calories": 380, 
+      "protein_per_100g": 19,
+      "carbs_per_100g": 27
+    }
+  },
+
+  {
+    "id": 12,
+    "name": "Banana Smoothie",
+    "ingredients": ["banana", "milk", "honey"],
+    "steps": [
+      "Peel and slice the bananas.",
+      "Add banana slices, milk, and honey into a blender.",
+      "Blend for 20–30 seconds until smooth.",
+      "Add ice cubes if needed.",
+      "Serve immediately."
+    ],
+    "time": 5,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "nutrition": { 
+      "calories": 180, 
+      "protein_per_100g": 3,
+      "carbs_per_100g": 24
+    }
+  },
+
+  {
+    "id": 13,
+    "name": "Paneer Butter Masala",
+    "ingredients": ["paneer", "tomato", "butter", "cream"],
+    "steps": [
+      "Heat butter and cook onions until soft.",
+      "Add tomatoes and cook until pulpy.",
+      "Blend into smooth gravy.",
+      "Cook gravy with spices for 5 minutes.",
+      "Add paneer cubes and mix.",
+      "Add cream and simmer.",
+      "Serve hot."
+    ],
+    "time": 30,
+    "difficulty": "medium",
+    "diet": "vegetarian",
+    "nutrition": { 
+      "calories": 500, 
+      "protein_per_100g": 18,
+      "carbs_per_100g": 12
+    }
+  },
+
+  {
+    "id": 14,
+    "name": "Veg Sandwich",
+    "ingredients": ["bread", "lettuce", "tomato", "cheese"],
+    "steps": [
+      "Place bread slices.",
+      "Add lettuce, tomatoes, and cheese.",
+      "Cover with the second slice.",
+      "Grill for 2–3 minutes or serve directly.",
+      "Cut and serve."
+    ],
+    "time": 10,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "nutrition": { 
+      "calories": 280, 
+      "protein_per_100g": 9,
+      "carbs_per_100g": 30
+    }
+  },
+
+  {
+    "id": 15,
+    "name": "Oatmeal",
+    "ingredients": ["oats", "milk", "honey"],
+    "steps": [
+      "Add oats and milk to a pan.",
+      "Cook for 3–4 minutes.",
+      "Turn off flame once thick.",
+      "Add honey and mix.",
+      "Serve warm."
+    ],
+    "time": 10,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "nutrition": { 
+      "calories": 200, 
+      "protein_per_100g": 6,
+      "carbs_per_100g": 27
+    }
+  },
+
+  {
+    "id": 16,
+    "name": "Salsa",
+    "ingredients": ["tomato", "onion", "cilantro", "lime"],
+    "steps": [
+      "Chop tomatoes, onion, and cilantro.",
+      "Mix all ingredients in a bowl.",
+      "Add lime juice and salt.",
+      "Chill for 10 minutes.",
+      "Serve fresh."
+    ],
+    "time": 10,
+    "difficulty": "easy",
+    "diet": "vegan",
+    "nutrition": { 
+      "calories": 50, 
+      "protein_per_100g": 1,
+      "carbs_per_100g": 6
+    }
+  },
+
+  {
+    "id": 17,
+    "name": "Butter Chicken",
+    "ingredients": ["chicken", "butter", "tomato", "cream"],
+    "steps": [
+      "Marinate chicken with spices.",
+      "Cook chicken until golden.",
+      "Cook tomatoes until soft and blend.",
+      "Cook gravy with spices.",
+      "Add chicken and simmer.",
+      "Add cream and mix.",
+      "Serve hot."
+    ],
+    "time": 45,
+    "difficulty": "hard",
+    "diet": "non-vegetarian",
+    "nutrition": { 
+      "calories": 600, 
+      "protein_per_100g": 27,
+      "carbs_per_100g": 6
+    }
+  },
+
+  {
+    "id": 18,
+    "name": "Greek Salad",
+    "ingredients": ["cucumber", "tomato", "feta", "olive oil"],
+    "steps": [
+      "Chop cucumber and tomatoes.",
+      "Add them to a bowl.",
+      "Add feta cheese.",
+      "Pour olive oil.",
+      "Mix and serve."
+    ],
+    "time": 10,
+    "difficulty": "easy",
+    "diet": "vegetarian",
+    "nutrition": { 
+      "calories": 220, 
+      "protein_per_100g": 4,
+      "carbs_per_100g": 7
+    }
+  },
+
+  {
+    "id": 19,
+    "name": "Mushroom Soup",
+    "ingredients": ["mushroom", "cream", "onion", "salt"],
+    "steps": [
+      "Slice mushrooms and chop onions.",
+      "Sauté onions in butter.",
+      "Add mushrooms and cook for 5 minutes.",
+      "Add water or stock.",
+      "Add cream and simmer.",
+      "Blend if smooth texture is desired.",
+      "Serve hot."
+    ],
+    "time": 30,
+    "difficulty": "medium",
+    "diet": "vegetarian",
+    "nutrition": { 
+      "calories": 180, 
+      "protein_per_100g": 3,
+      "carbs_per_100g": 4
+    }
+  },
+
+  {
+    "id": 20,
+    "name": "Chili Garlic Noodles",
+    "ingredients": ["noodles", "garlic", "chili", "vegetable"],
+    "steps": [
+      "Boil noodles for 5–7 minutes.",
+      "Sauté garlic and chili in oil.",
+      "Add vegetables and stir fry.",
+      "Add noodles and mix.",
+      "Add seasoning.",
+      "Cook 1–2 minutes.",
+      "Serve hot."
+    ],
+    "time": 20,
+    "difficulty": "medium",
+    "diet": "vegetarian",
+    "nutrition": { 
+      "calories": 410, 
+      "protein_per_100g": 8,
+      "carbs_per_100g": 40
+    }
+  },
+
+  {
+    "id": 21,
+    "name": "Sweet Potato Fries",
+    "ingredients": ["sweet potato", "salt", "pepper", "olive oil"],
+    "steps": [
+      "Cut sweet potatoes into strips.",
+      "Mix with oil, salt, and pepper.",
+      "Air fry or bake at 200°C.",
+      "Flip halfway.",
+      "Serve hot."
+    ],
+    "time": 25,
+    "difficulty": "easy",
+    "diet": "gluten-free",
+    "nutrition": { 
+      "calories": 180, 
+      "protein_per_100g": 2,
+      "carbs_per_100g": 20
+    }
+  },
+
+  {
+    "id": 22,
+    "name": "Avocado Egg Salad",
+    "ingredients": ["egg", "avocado", "salt", "pepper", "lemon"],
+    "steps": [
+      "Boil eggs for 10 minutes.",
+      "Chop boiled eggs.",
+      "Mash avocado.",
+      "Add eggs, salt, pepper, lemon.",
+      "Mix and serve fresh."
+    ],
+    "time": 15,
+    "difficulty": "easy",
+    "diet": "gluten-free",
+    "nutrition": { 
+      "calories": 250, 
+      "protein_per_100g": 9,
+      "carbs_per_100g": 8
+    }
+  },
+
+  {
+    "id": 23,
+    "name": "Lemon Herb Chicken",
+    "ingredients": ["chicken", "lemon", "garlic", "salt", "pepper", "olive oil"],
+    "steps": [
+      "Marinate chicken with lemon and spices.",
+      "Rest for 10 minutes.",
+      "Cook each side for 7 minutes.",
+      "Serve warm."
+    ],
+    "time": 25,
+    "difficulty": "easy",
+    "diet": "gluten-free",
+    "nutrition": { 
+      "calories": 320, 
+      "protein_per_100g": 22,
+      "carbs_per_100g": 5
+    }
+  }
+
+]

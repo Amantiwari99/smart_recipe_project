@@ -1,0 +1,143 @@
+/* PAGE BACKGROUND */
+body {
+  margin: 0;
+  padding: 0;
+  background: #55091522;
+  font-family: Arial, sans-serif;
+}
+
+/* LAYOUT */
+.container {
+  padding: 30px;
+}
+
+.title {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+
+.main-layout {
+  display: flex;
+  gap: 30px;
+}
+
+/* LEFT PANEL (Clean, Stable) */
+.left-panel {
+  flex: 1;
+  background: rgba(133, 39, 22, 0.856);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(244, 223, 223, 0.971);
+}
+
+/* RIGHT PANEL */
+.right-panel {
+  flex: 2;
+  background: rgba(133, 39, 22, 0.856);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(244, 223, 223, 0.971);
+}
+
+/* SECTION TITLES */
+.section-title {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+/* INPUT BOX (Ingredients) */
+.input-box {
+  width: calc(100% - 20px);
+  height: 80px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #f3e0e0;
+  background: rgb(197, 207, 148);
+  color: #000;
+  box-sizing: border-box;
+}
+
+/* OPTIONS (Diet + Max Time) */
+.options-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+/* Dropdown + Max Time Input — SAME COLOR */
+.left-panel select,
+.left-panel input[type="number"] {
+  background-color: rgb(197, 207, 148) !important;
+  color: #0f0e0e !important;
+  border: 1px solid #888 !important;
+  padding: 6px !important;
+  border-radius: 6px !important;
+  outline: none !important;
+  box-sizing: border-box !important;
+}
+
+/* Remove default browser dropdown styling + Add custom arrow */
+.left-panel select {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  padding-right: 25px !important;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16'><polygon points='0,0 16,0 8,8' fill='black'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 6px center;
+}
+
+/* SEARCH BUTTON */
+.search-btn {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background: rgb(197, 207, 148);
+  color: rgb(10, 9, 19);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background: #6ac5c8;
+}
+
+/* RECIPE CARD */
+.recipe-card {
+  padding: 20px;
+  background: rgb(197, 207, 148);
+  border-radius: 10px;
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+/* HEADER OF RECIPE */
+.recipe-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* FAVORITE BUTTON */
+.fav-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* NO RESULTS */
+.no-results {
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+/* STEP LIST */
+.step-list {
+  padding-left: 20px;
+}
